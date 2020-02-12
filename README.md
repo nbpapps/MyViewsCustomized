@@ -5,6 +5,9 @@ It's a Swift Package for using custom view
 In Xcode navigate to File -> Swift Packages -> Add Package Dependeny…
 Enter this URL - https://github.com/nbpapps/MyViewsCustomized
 
+Detailed instructions can be found in this post :
+[How to create a Swift Package and how to use it in your own projects](https://medium.com/@nivbp/using-swift-package-manager-eecc4a57c0ca)
+
 **Adding a label:**
 ```swift
 import UIKit
