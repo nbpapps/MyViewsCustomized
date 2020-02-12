@@ -1,5 +1,9 @@
-# This is MVC (no, not that one), it's My Views Customized
+# This is MVC (no, not that one). It's My Views Customized
 It's a Swift Package for using custom view
+
+## Using it in your project.
+In Xcode navigate to File -> Swift Packages -> Add Package Dependeny…
+Enter this URL - https://github.com/nbpapps/MyViewsCustomized
 
 **Adding a label:**
 ```swift
