@@ -1,7 +1,7 @@
 # This is MVC (no, not that one). It's My Views Customized
 It's a Swift Package for using custom view
 
-This is a Swift package that you can use while following my post explaining [How to create a Swift Package and how to use it in your own projects](https://medium.com/@nivbp/using-swift-package-manager-eecc4a57c0ca)
+You can use it while following my post - [How to create a Swift Package and how to use it in your own projects](https://medium.com/@nivbp/using-swift-package-manager-eecc4a57c0ca)
 
 
 ## Using it in your project.
