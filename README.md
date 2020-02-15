@@ -39,6 +39,19 @@ class ViewController: UIViewController {
 }
 ```
 
+**Adding a image view:**
+```swift
+import UIKit
+import MyViewsCustomized
 
+class ViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let image = UIImage(systemName: "arrow.swap")
+        let myImageView = NBPImageView(placeHolderImage: image)
+        view.addSubview(myImageView)
+    }
+}
+```
 
 For feeddback and info, ping me on [Twitter](https://twitter.com/nbpapps)
