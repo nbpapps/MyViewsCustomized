@@ -13,12 +13,13 @@ final class MyViewsCustomizedTests: XCTestCase {
     }
     
     func testButton() {
-        let myButton = NBPButton(backgroundColor: .red, title: "My button")
+        let myButton = NBPButton(backgroundColor: .red, title: "My button",borderColor: .orange)
             
         XCTAssertEqual(myButton.backgroundColor, UIColor.red, "button BG color should be red")
         XCTAssertEqual(myButton.titleLabel?.text, "My button", "button title should be 'My button'")
+        XCTAssertEqual(myButton.layer.borderColor, UIColor.orange.cgColor, "layer color should be orange")
     }
-    
+
     func testImageView() {
         let image = UIImage(systemName: "arrow.swap")
         let myImageView = NBPImageView(placeHolderImage: image!)

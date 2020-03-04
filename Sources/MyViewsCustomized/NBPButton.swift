@@ -20,15 +20,17 @@ public class NBPButton: UIButton {
     }
     
     
-    public init(backgroundColor : UIColor = .systemBackground,title : String = "") {
+    public init(backgroundColor : UIColor = .systemBackground,title : String = "",borderColor : UIColor = .clear) {
         super.init(frame: .zero)
         self.backgroundColor = backgroundColor
         self.setTitle(title, for: .normal)
+        self.layer.borderColor = borderColor.cgColor
         configure()
     }
     
     private func configure() {
         layer.cornerRadius = 10
+        layer.borderWidth = 2.0
         setTitleColor(.label, for: .normal)
         titleLabel?.font = UIFont.preferredFont(forTextStyle: .headline) //this is for dynamic type
         translatesAutoresizingMaskIntoConstraints = false //this will let us use AutoLayout
