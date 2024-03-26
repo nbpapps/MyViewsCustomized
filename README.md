@@ -54,4 +54,4 @@ class ViewController: UIViewController {
 }
 ```
 
-For feeddback and info, ping me on [Twitter](https://twitter.com/nbpapps)
+For feedback and info, ping me on [Twitter](https://twitter.com/nbpapps)
