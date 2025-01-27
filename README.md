@@ -1,12 +1,12 @@
 # This is MVC (no, not that one). It's My Views Customized
-It's a Swift Package for using custom view
+It's a Swift Package for using a custom view
 
-You can use it with following my post - [How to create a Swift Package and how to use it in your own projects](https://medium.com/@nivbp/using-swift-package-manager-eecc4a57c0ca)
+You can use it by following my post - [How to create a Swift Package and how to use it in your own projects](https://medium.com/@nivbp/using-swift-package-manager-eecc4a57c0ca)
 
 
 ## Using it in your project.
 ```
-In Xcode navigate to File -> Swift Packages -> Add Package Dependeny…
+In Xcode navigate to File -> Swift Packages -> Add Package Dependency…
 Enter this URL - https://github.com/nbpapps/MyViewsCustomized
 ```
 
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
 }
 ```
 
-**Adding a image view:**
+**Adding an image view:**
 ```swift
 import UIKit
 import MyViewsCustomized
